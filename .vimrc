@@ -18,13 +18,6 @@ set shiftwidth=4
 set t_Co=256
 set mouse=a
 set splitbelow
-if has('gui_running')
-    " GUI colors
-    colorscheme cobalt
-else
-    " Non-GUI (terminal) colors
-    colorscheme gruvbox
-endif
 nmap oo o<Esc>
 nmap OO O<Esc>j
 set nocompatible
@@ -93,3 +86,10 @@ call plug#end()
 "   filetype indent off   " Disable file-type-specific indentation
 "   syntax off            " Disable syntax highlighting
 set showcmd
+if has('gui_running')
+    " GUI colors
+    colorscheme cobalt
+else
+    " Non-GUI (terminal) colors
+    colorscheme gruvbox
+endif
