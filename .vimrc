@@ -9,6 +9,7 @@ set nowrap
 set rnu
 let mapleader = " "
 set nu
+set cul
 set incsearch
 set smartindent
 set scrolloff=6
@@ -73,6 +74,10 @@ call plug#begin()
 Plug 'junegunn/vim-easy-align'
 Plug 'flazz/vim-colorschemes'
 Plug 'vim-airline/vim-airline'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
 " Plug 'osyo-manga/vim-over'
 " Plug 'haya14busa/incsearch.vim'
 " Plug 'preservim/nerdtree'
